@@ -1,0 +1,22 @@
+/**
+ * Copyright IBM Corp. 2025, 2026
+ *
+ * This source code is licensed under the Apache-2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+@use '@carbon/react/scss/spacing' as *;
+@use '@carbon/react/scss/type' as *;
+@use '@carbon/react/scss/theme' as *;
+
+.cs--upload-form__file-input {
+  // Give the FileUploader breathing room
+  margin-block-end: $spacing-03;
+}
+
+.cs--upload-form__validation-error {
+  @include type-style('helper-text-01');
+
+  color: $support-error;
+  margin-block: 0;
+}
