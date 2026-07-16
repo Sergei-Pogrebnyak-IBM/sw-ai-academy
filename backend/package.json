@@ -1,0 +1,16 @@
+{
+  "name": "contract-risk-assessment-backend",
+  "version": "0.1.0",
+  "description": "Contract Risk Assessment Tool — backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/__tests__/**/*.test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.9.1",
+    "busboy": "^1.6.0",
+    "uuid": "^11.1.0"
+  }
+}
